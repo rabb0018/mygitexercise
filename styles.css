@@ -1,0 +1,42 @@
+header {
+  position: relative;
+  height: 0;
+}
+
+nav {
+  padding: 1rem;
+  background-color: rgb(248, 150, 150);
+  font-size: 2rem;
+  text-align: right;
+  display: flex;
+  justify-content: space-around;
+}
+
+#nav {
+  font-family: "cabanaregular";
+  font-size: 40px;
+}
+
+a:link {
+  color: #000000;
+  margin: 2px 5px 10px 5px;
+}
+
+/* visited link */
+a:visited {
+  color: #000000;
+}
+
+/* mouse over link */
+a:hover {
+  color: #424242;
+}
+
+/* selected link */
+a:active {
+  color: #ffffff;
+}
+
+#projects {
+  margin-top: 10rem;
+}
